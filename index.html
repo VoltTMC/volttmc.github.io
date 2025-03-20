@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Underhill - Portfolio</title>
+    <link rel="stylesheet" href="theme.css">
+    <script src="videoController.js"></script>
+</head>
+<body data-astro-cid-sckkx6r4="">  
+    <main class="flex flex-col md:flex-row items-center md:items-start max-w-[1700px]"> 
+        <div class="flex flex-col gap-4 py-8 pb-4 md:pb-8 px-8 items-center w-full md:max-w-96 bg-slate-900 h-auto md:h-screen md:min-h-full relative top-0 md:sticky"> 
+            <div class="w-44 md:mt-12"> <img src="images/ProfilePicture.png" loading="eager" alt="Thomas Underhill" width="176" height="176" decoding="async"> </div> 
+            <h1 class="text-4xl font-display text-black">Thomas Underhill</h1>
+            <div class="hidden md:flex flex-col justify-center items-center"> 
+                <strong class="block w-full text-center p-2 text-xl">Making games and software!</strong>
+            </div>
+            <a href="index.html" class="text-4xl font-display text-black" style="padding-top: 45%;">Home</a>
+            <a href="skills.html" class="text-4xl font-display text-black">Skills</a>
+            <div class="md:absolute md:bottom-4 mb-6 md:mb-0 w-full px-8 flex flex-col-reverse md:flex-col"> 
+                <div class="flex gap-4 justify-center md:justify-start"> 
+                    <a href="https://www.linkedin.com/in/thomasunderhill2005/" target="_blank" class="social-icon hover:scale-125"> 
+                        <svg width="1em" height="1em" class="hover:text-[#0A66C2]" data-icon="simple-icons:linkedin"> 
+                            <title>LinkedIn</title>  
+                            <symbol id="ai:simple-icons:linkedin" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"> 
+                                </path>
+                            </symbol>
+                            <use href="#ai:simple-icons:linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+                <a href="mailto:thomasunderhill.tu@gmail.com" class="group px-1 py-4 pt-0 md:pt-4 flex text-xl hover:text-slate-50 transition-colors justify-center md:justify-start items-center">
+                    <svg fill="black" class="w-8 mr-4 group-hover:fill-[#fff] transition-all hidden md:block" viewBox="0 0 24 24">
+                        <title>email</title>
+                        <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"></path>
+                    </svg>
+                    <span>thomasunderhill.tu@gmail.com</span>
+                </a>
+            </div>
+        </div>
+        <div class="flex gap-8 p-8 flex-wrap w-full justify-center xl:justify-start pb-20">
+            <h2 class="text-center xl:text-left font-display w-full text-2xl mt-4 font-bold text-white" style="font-size: xx-large">Personal Games</h2>
+            <a onclick="openVideoPlayer('ProjectColours')" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+                <div class="flex absolute top-2 right-0"></div>
+                <img src="images/ProjectColorsLogo.png" loading="eager" alt="Project Colors" class="w-20 rounded-xl shadow-equal-md shadow-black" width="80" height="80" decoding="async">
+                <div class="flex flex-col py-1">
+                    <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Project Colors</h3>
+                    <p>A remake of the 2010 Sonic Colours Wii game in Unreal Engine</p>
+                </div>
+            </a>
+            <a onclick="openVideoPlayer('SlendermanVR')" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+                <div class="flex absolute top-2 right-0"></div>
+                <img src="images/SlendermanVR.png" loading="eager" alt="alt" class="w-20 rounded-xl shadow-equal-md shadow-black" width="80" height="80" decoding="async">
+                <div class="flex flex-col py-1">
+                    <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Slenderman VR</h3>
+                    <p>A remake of the 2011 Slenderman: The eight pages game built in Unity for virtual reality</p>
+                </div>
+            </a>
+            <a href="" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+                <div class="flex absolute top-2 right-0"></div>
+                <img src="images/PortalVR.png" loading="eager" alt="alt" class="w-20 rounded-xl" width="80" height="80" decoding="async">
+                <div class="flex flex-col py-1">
+                    <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Portal VR</h3>
+                    <p>A remake of the 2007 Portal game built in Unity for virtual reality</p>
+                </div>
+            </a>
+            <h2 class="text-center xl:text-left font-display w-full text-2xl mt-4 font-bold text-white" style="font-size: xx-large">Personal Projects</h2>
+            <a onclick="openVideoPlayer('SonicColoursStage')" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+                <div class="flex absolute top-2 right-0"></div>
+                <img src="images/BP_Spawner.png" loading="eager" alt="Stage Extractor" class="w-20 rounded-xl" width="80" height="80" decoding="async">
+                <div class="flex flex-col py-1">
+                    <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Sonic Colours stage extractor</h3>
+                    <p>A tool to extract and convert stages from Sonic Colors to Unreal Engine</p>
+                </div>
+            </a>
+            <a href="https://github.com/VoltTMC/PythonPlaylistPlayer" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+                <div class="flex absolute top-2 right-0"></div>
+                <img src="images/SpotifyPython.png" loading="eager" alt="alt" class="w-20 rounded-xl shadow-equal-md shadow-black" width="80" height="80" decoding="async">
+                <div class="flex flex-col py-1">
+                    <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Python playlist player</h3>
+                    <p>A python program to create playlists and play them through spotify</p>
+                </div>
+            </a>
+            <a href="https://github.com/VoltTMC/PythonWeatherApp" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+                <div class="flex absolute top-2 right-0"></div>
+                <img src="images/PythonWeather.png" loading="eager" alt="alt" class="w-20 rounded-xl shadow-equal-md shadow-black" width="80" height="80" decoding="async">
+                <div class="flex flex-col py-1">
+                    <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Python weather app</h3>
+                    <p>A python program to fetch and display live weather data from any major city</p>
+                </div>
+            </a>
+        </div>
+
+        <div id="ProjectColours" class="videoPlayer">
+            <div class="videoDescription">
+                <h1 style="font-size: xxx-large; font-weight: bold; margin-top: 15px;">Project Colours</h1>
+                <p>This project is a WIP recreation of the 2010 Sonic Colours Wii game in Unreal Engine 5. This has been a passion of mine for just over a year now, everything in the demonstration video below is programmed, designed and developed by me alone. It was created in Unreal Engine 5 with both blueprints for more simple systems and elements and C++ for the more advanced system such as Sonic's physics. The physics system also runs on an asynchronous thread indipendantly of the visual rendering to ensure that even at low framerates the physics stay consistent and accurate. A large portion of the game uses tools developed by myself such as the Sonic Colours stage extractor that you can also see on this portfolio website for more details about what it does and how it works. These custom tools are not only advanced but they also reduce the requied amount of time to create stages from weeks to just a day or 2. Feel free to watch the video below to see the game from the title screen all the way to the end of the first stage.</p>
+            </div>
+            <video id="ProjectColoursVideo" class="videoToPlay" controls>
+                <source type="video/mp4" src="videos/ProjectColoursShowoff.mp4">
+            </video>
+            <div onclick="closeVideoPlayer('ProjectColours')" class="backButton">
+                <img src="images/BackButton.svg" style="margin: 15px; width: 66px; height: 66px;">
+            </div>
+        </div>
+
+        <div id="SlendermanVR" class="videoPlayer">
+            <div class="videoDescription">
+                <h1 style="font-size: xxx-large; font-weight: bold; margin-top: 15px;">Slenderman VR</h1>
+                <p>This project is a recreation of Slenderman: The eight pages from 2012 built inside of the Unity game engine. This recreation was build in just under 3 months and was more of a side project for me, the game is completely VR compatible with the Oculus quest 1, 2 and 3 or PCVR. I did not do as much with this project as I wish I had however, I am still pleased enough of it as it shows off my capability for developing on multiple platforms as this game runs on both Windows (PC) and Oculus quest (Android). Even though the Oculus quest 1 is a very weak mobile headset I was still able to optimize and design the game in a way to ensure it would run at a constant and stable 72fps. While I do not have this project on any of my current storage devices, I still have a trailer that was made for the game that can be seen below. I am not amazing at marketing and will definitly stick to pogramming but at least this shows off the game mechanics and its functionality in VR.</p>
+            </div>
+            <video id="SlendermanVRVideo" class="videoToPlay" controls>
+                <source type="video/mp4" src="videos/SlendermanTrailer.mp4">
+            </video>
+            <div onclick="closeVideoPlayer('SlendermanVR')" class="backButton">
+                <img src="images/BackButton.svg" style="margin: 15px; width: 66px; height: 66px;">
+            </div>
+        </div>
+
+
+
+        <div id="SonicColoursStage" class="videoPlayer">
+            <div class="videoDescription">
+                <h1 style="font-size: xxx-large; font-weight: bold; margin-top: 15px;">Sonic Colours stage extractor</h1>
+                <p>This tool is a personal mini-project of mine that was designed to extract object/stage data from the original Sonic Colours Wii game from 2010. This tool is currently built in blueprints while I am still prototyping but the plan is to convert it all to C++ since this tool is starting to get quite advanced/messy for blueprints. As demonstrated in the video below, the tool takes in a .xml file from the Wii game containing all the object/stage data then loop through each element in the .xml file grabbing its location, rotation, scale and parameters upon converting it to an Unreal compatible actor. These actors are custom made by me and are designed to replicate their counterparts from the original game, the tool will pass on the transform and parameters of each object onto the Unreal actors with all of the correct data. Some parameters and rotation needs to be adjusted for Unreal engine to work with them as rotations and parameters work drastically differently from a Wii game. The hardest part of making this tool was having to reverse engineer/work out how the files were formatted and how each object in the original game functioned in order to seamlessy integrate these files into Unreal engine.</p>
+            </div>
+            <video id="SonicColoursStageVideo" class="videoToPlay" controls>
+                <source type="video/mp4" src="videos/SonicColoursStageExtractor.mp4">
+            </video>
+            <div onclick="closeVideoPlayer('SonicColoursStage')" class="backButton">
+                <img src="images/BackButton.svg" style="margin: 15px; width: 66px; height: 66px;">
+            </div>
+        </div>
+    </main>
+ </body>
+</html>
