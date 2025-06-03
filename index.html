@@ -90,6 +90,14 @@
                     <p>A python program to fetch and display live weather data from any major city</p>
                 </div>
             </a>
+            <a style="cursor: pointer" onclick="openVideoPlayer('RayTracingProject')" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+                <div class="flex absolute top-2 right-0"></div>
+                <img src="images/RayTracingLogo.png" loading="eager" alt="Stage Extractor" class="w-20 rounded-xl" width="80" height="80" decoding="async">
+                <div class="flex flex-col py-1">
+                    <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Unity ray-tracer</h3>
+                    <p>A project built from the ground up for non-realtime ray-tracing rendering in the Unity game engine</p>
+                </div>
+            </a>
         </div>
 
         <div id="ProjectColours" class="videoPlayer">
@@ -129,6 +137,19 @@
                 <source type="video/mp4" src="videos/SonicColoursStageExtractor.mp4">
             </video>
             <div onclick="closeVideoPlayer('SonicColoursStage')" class="backButton">
+                <img src="images/BackButton.svg" style="margin: 15px; width: 66px; height: 66px;">
+            </div>
+        </div>
+
+        <div id="RayTracingProject" class="videoPlayer">
+            <div class="videoDescription">
+                <h1 style="font-size: xxx-large; font-weight: bold; margin-top: 15px;">Unity ray-tracer</h1>
+                <p>This project was a way for me to get more familiar with rendering techniques used for more photorealistic rendering. I built this ray-tracer from the ground up without using any libraries or additional code to try and learn all the fundimentals of rendering. The ray-tracer shoots rays of light from the camera for every pixel on screen and accumulates the results over multiple frames to create a final rendered output image. I would love to expand upon and speed up this project so that I can look into making the ray-tracer more realtime as it takes about 30 seconds or so to accumulate a non-noisy image. Feel free to watch the video below to see the system generate and render a frame.</p>
+            </div>
+            <video id="RayTracingProjectVideo" class="videoToPlay" controls>
+                <source type="video/mp4" src="videos/RayTracingProject.mp4">
+            </video>
+            <div onclick="closeVideoPlayer('RayTracingProject')" class="backButton">
                 <img src="images/BackButton.svg" style="margin: 15px; width: 66px; height: 66px;">
             </div>
         </div>
