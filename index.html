@@ -8,22 +8,22 @@
     <script src="videoController.js"></script>
 </head>
 <body data-astro-cid-sckkx6r4="">  
-    <main class="flex flex-col md:flex-row items-center md:items-start max-w-[1700px]"> 
-        <div class="flex flex-col gap-4 py-8 pb-4 md:pb-8 px-8 items-center w-full md:max-w-96 bg-slate-900 h-auto md:h-screen md:min-h-full relative top-0 md:sticky"> 
-            <div class="w-44 md:mt-12"> <img src="images/ProfilePicture.png" loading="eager" alt="Thomas Underhill" width="176" height="176" decoding="async"> </div> 
+    <main class="flex flex-col md:flex-row items-center md:items-start max-w-[1700px]">
+        <div class="flex flex-col gap-4 py-8 pb-4 md:pb-8 px-8 items-center w-full md:max-w-96 bg-slate-900 h-auto md:h-screen md:min-h-full relative top-0 md:sticky">
+            <div class="w-44 md:mt-12"> <img src="images/ProfilePicture.png" loading="eager" alt="Thomas Underhill" width="176" height="176" decoding="async"> </div>
             <h1 class="text-4xl font-display text-black">Thomas Underhill</h1>
-            <div class="hidden md:flex flex-col justify-center items-center"> 
+            <div class="hidden md:flex flex-col justify-center items-center">
                 <strong class="block w-full text-center p-2 text-xl">Making games and software!</strong>
             </div>
             <a href="index.html" class="text-4xl font-display text-black" style="padding-top: 45%;">Home</a>
             <a href="skills.html" class="text-4xl font-display text-black">Skills</a>
-            <div class="md:absolute md:bottom-4 mb-6 md:mb-0 w-full px-8 flex flex-col-reverse md:flex-col"> 
-                <div class="flex gap-4 justify-center md:justify-start"> 
-                    <a href="https://www.linkedin.com/in/thomasunderhill2005/" target="_blank" class="social-icon hover:scale-125"> 
-                        <svg width="1em" height="1em" class="hover:text-[#0A66C2]" data-icon="simple-icons:linkedin"> 
-                            <title>LinkedIn</title>  
+            <div class="md:absolute md:bottom-4 mb-6 md:mb-0 w-full px-8 flex flex-col-reverse md:flex-col">
+                <div class="flex gap-4 justify-center md:justify-start">
+                    <a href="https://www.linkedin.com/in/thomasunderhill2005/" target="_blank" class="social-icon hover:scale-125">
+                        <svg width="1em" height="1em" class="hover:text-[#0A66C2]" data-icon="simple-icons:linkedin">
+                            <title>LinkedIn</title>
                             <symbol id="ai:simple-icons:linkedin" viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"> 
+                                <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z">
                                 </path>
                             </symbol>
                             <use href="#ai:simple-icons:linkedin"></use>
@@ -57,9 +57,9 @@
                     <p>A remake of the 2011 Slenderman: The eight pages game built in Unity for virtual reality</p>
                 </div>
             </a>
-            <a target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
+            <a style="cursor: pointer" onclick="openVideoPlayer('PortalVR')" target="_blank" class="flex w-full max-w-96 p-3 gap-3 bg-slate-900 rounded-3xl hover:scale-105 transition-all border-2 border-slate-800 shadow-equal-lg shadow-black relative">
                 <div class="flex absolute top-2 right-0"></div>
-                <img src="images/PortalVR.png" loading="eager" alt="alt" class="w-20 rounded-xl" width="80" height="80" decoding="async">
+                <img src="images/PortalVR.png" loading="eager" alt="alt" class="w-20 rounded-xl shadow-equal-md shadow-black" width="80" height="80" decoding="async">
                 <div class="flex flex-col py-1">
                     <h3 class="text-black font-display" style="font-Size: x-large; font-weight: bold; margin-top: -7.5px;">Portal VR</h3>
                     <p>A remake of the 2007 Portal game built in Unity for virtual reality</p>
@@ -150,6 +150,19 @@
                 <source type="video/mp4" src="videos/RayTracingProject.mp4">
             </video>
             <div onclick="closeVideoPlayer('RayTracingProject')" class="backButton">
+                <img src="images/BackButton.svg" style="margin: 15px; width: 66px; height: 66px;">
+            </div>
+        </div>
+
+        <div id="PortalVR" class="videoPlayer">
+            <div class="videoDescription">
+                <h1 style="font-size: xxx-large; font-weight: bold; margin-top: 15px;">Portal VR</h1>
+                <p>This project was to improve my skills with shaders and different rendering techniques. This was developed in Unity supporting both VR and flatscreen. Using specially designed render textures and precisely positioned cameras to preserve proper perspective, the project offers smooth real-time views through portals. The physics of the original game are faithfully replicated, allowing players and objects to move through portals with preserved momentum. The portals can be positioned anywhere in world space, allowing users to walk through them in full 6DoF (6 Degrees of Freedom). I used custom shaders and stencil buffer techniques to manage smooth visual transitions through portal edges, as well as surface detection and placement logic to cut holes in the worlds geometry to ensure the player can traverse through portals even if they are place on walls. In addition to being a technical challenge, this remake paid homage to one of the most recognisable game design elements.</p>
+            </div>
+            <video id="RayTracingProjectVideo" class="videoToPlay" controls>
+                <source type="video/mp4" src="videos/PortalVRShowoff.mp4">
+            </video>
+            <div onclick="closeVideoPlayer('PortalVR')" class="backButton">
                 <img src="images/BackButton.svg" style="margin: 15px; width: 66px; height: 66px;">
             </div>
         </div>
